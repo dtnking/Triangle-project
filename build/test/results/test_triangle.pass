@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_sortSidesOfTriangle
+  :line: 12
+  :message: ''
+- :test: test_ValidityOfTriangle_3_plus_4_longer_than_5_expect_valid
+  :line: 26
+  :message: ''
+- :test: test_TypeOfTriangle_A2_plus_B2_equal_C2_expect_rightAngle
+  :line: 36
+  :message: ''
+- :test: test_TypeOfTriangle_A2_plus_B2_larger_than_C2_expect_obtuseAngle
+  :line: 45
+  :message: ''
+- :test: test_TypeOfTriangle_A2_plus_B2_smaller_than_C2_expect_accuteAngle
+  :line: 54
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- short1:2
+- short2:4
+- longest:7
